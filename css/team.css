@@ -1,9 +1,9 @@
-#team {
+.team {
     padding: 120px 0;
     background-color: #f4f4fd;
 }
 
-#team h2 {
+.team h2 {
     margin-bottom: 72px;
 
     text-align: center;

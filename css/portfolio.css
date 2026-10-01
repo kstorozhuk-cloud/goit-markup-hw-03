@@ -1,9 +1,9 @@
-#portfolio {
+.portfolio {
     padding: 120px 0;
     background-color: #ffffff;
 }
 
-#portfolio h2 {
+.portfolio h2 {
     margin-bottom: 72px;
 
     text-align: center;
@@ -21,9 +21,6 @@
 
 .portfolio-card {
     width: calc((100% - 48px) / 3);
-
-    border: 1px solid #e7e9fc;
-    background-color: #ffffff;
 }
 
 .portfolio-card img {
@@ -32,6 +29,10 @@
 
 .portfolio-card-content {
     padding: 32px 16px;
+
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    background-color: #ffffff;
 }
 
 .portfolio-card h3 {

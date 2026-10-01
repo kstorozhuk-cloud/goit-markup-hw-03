@@ -1,4 +1,4 @@
-#footer {
+.footer {
     padding: 100px 0;
 
     background-color: #2e2f42;
@@ -14,7 +14,7 @@
     color: #4d5ae5;
 }
 
-#footer p {
+.footer p {
     width: 264px;
 
     font-size: 14px;

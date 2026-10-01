@@ -1,5 +1,4 @@
-#header {
-    height: 72px;
+header {
     border-bottom: 1px solid #e7e9fc;
     background-color: #ffffff;
 }
@@ -22,16 +21,20 @@
     color: #2E2F42;
 }
 
-.header-container nav {
+.header-nav {
     margin-right: auto;
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-list a {
+    display: block;
+
     font-size: 16px;
     font-weight: 500;
     color: #2e2f42;
