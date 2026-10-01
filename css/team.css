@@ -3,7 +3,7 @@
     background-color: #f4f4fd;
 }
 
-.team h2 {
+.team-header {
     margin-bottom: 72px;
 
     text-align: center;
@@ -30,7 +30,7 @@
         0 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.team-card img {
+.team-card-image {
     width: 100%;
 }
 
@@ -39,7 +39,7 @@
     text-align: center;
 }
 
-.team-card h3 {
+.team-card-title {
     margin-bottom: 8px;
 
     font-size: 18px;
@@ -47,7 +47,7 @@
     font-weight: 600;
 }
 
-.team-card p {
+.team-card-text {
     font-size: 14px;
     line-height: 1.5;
     color: #434455;
