@@ -4,8 +4,8 @@
 
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
-    color: #434455;
+    font-family: Roboto, sans-serif;
+    color: #2e2f42;
     background-color: #ffffff;
 }
 
@@ -24,18 +24,35 @@ ul {
 
 a {
     text-decoration: none;
-}
-
-img {
-    display: block;
+    color: inherit;
 }
 
 button {
     font-family: inherit;
+    cursor: pointer;
 }
 
-address {
-    font-style: normal;
+img {
+    display: block;
+    max-width: 100%;
 }
 
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+.logo-web {
+    color: #4d5ae5;
+}
