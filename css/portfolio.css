@@ -3,7 +3,7 @@
     background-color: #ffffff;
 }
 
-.portfolio h2 {
+.portfolio-header {
     margin-bottom: 72px;
 
     text-align: center;
@@ -35,7 +35,7 @@
     background-color: #ffffff;
 }
 
-.portfolio-card h3 {
+.portfolio-card-title{
     margin-bottom: 8px;
 
     font-size: 18px;
@@ -43,7 +43,7 @@
     font-weight: 600;
 }
 
-.portfolio-card p {
+.portfolio-card-text {
     font-size: 14px;
     line-height: 1.5;
     color: #434455;

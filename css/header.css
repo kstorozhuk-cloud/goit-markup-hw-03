@@ -1,4 +1,4 @@
-header {
+.header {
     border-bottom: 1px solid #e7e9fc;
     background-color: #ffffff;
 }
@@ -28,13 +28,12 @@ header {
 .nav-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .nav-list a {
     display: block;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-size: 16px;
     font-weight: 500;
     color: #2e2f42;

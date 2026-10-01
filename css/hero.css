@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.hero-container h1 {
+.hero-title {
     max-width: 496px;
     margin-bottom: 48px;
 
@@ -20,7 +20,7 @@
     color: #ffffff;
 }
 
-.hero-container button {
+.hero-button {
     padding: 16px 32px;
 
     border: none;
@@ -33,6 +33,6 @@
     font-weight: 500;
 }
 
-.hero-container button:hover {
+.hero-button:hover {
     background-color: #404bbf;
 }
